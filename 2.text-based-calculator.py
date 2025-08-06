@@ -1,14 +1,14 @@
 #create function
-def get_number():
-    while True: 
-        operand = input("Number 1: ")
-        try:
-            operand = float(operand)
-            break
-        except:
-            print("Invalid input operand")
+#def get_number():
+while True: 
+    operand = input("Number 1: ")
+    try:
+        operand = float(operand)
+        break
+    except:
+        print("Invalid input operand")
 
-    return operand
+    #return operand
 
 
 
@@ -24,9 +24,9 @@ sign = input("Sign: ")
     
 result = 0
 if sign == "+":
-    result = float(operand) + float(operand)
+    result = float(operand) + float(operand2)
 elif sign == "-":
-    result = float(operand) - float(operand)
+    result = float(operand) - float(operand2)
 elif sign == "/":
     if float(operand2) != 0:
         result = float(operand) / float(operand2)

@@ -355,9 +355,9 @@ except:
 if valid:
   result = 0
     if sign == "+":
-        result = float(operand) + float(operand)
+        result = float(operand) + float(operand2)
     elif sign == "-":
-        result = float(operand) - float(operand)
+        result = float(operand) - float(operand2)
     elif sign == "/":
         if float(operand2) != 0:
             result = float(operand) / float(operand2)
@@ -388,9 +388,9 @@ try:
     operand2 = float(operand2)
     result = 0
     if sign == "+":
-        result = float(operand) + float(operand)
+        result = float(operand) + float(operand2)
     elif sign == "-":
-        result = float(operand) - float(operand)
+        result = float(operand) - float(operand2)
     elif sign == "/":
         if float(operand2) != 0:
             result = float(operand) / float(operand2)
