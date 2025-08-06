@@ -1,4 +1,5 @@
 # Learn Python with 5 projects - from beginner to advanced
+
 > By Tech With Tim on YouTube
 
 <h4>5 projects are;</h4>
@@ -33,6 +34,7 @@
   - Python
 
 - Python code
+
 ```python
 print("Hello World!")
 ```
@@ -40,7 +42,6 @@ print("Hello World!")
 - Press `Ctrl + Shift + P` , this opens a search and search for `Python Select Interpreter`
 - or
 - Run `python3 name_of_file.py` or  `python name_of_file.py`
-
 
 
 #### Write Python code
@@ -52,33 +53,39 @@ print("Hello World!")
 ### Datatypes
 
 #### 1. String
+
 - In Python, strings are denoted by `str`
 - String is anything surrounded by `""` or `''`
 
 #### 2. Comments
+
 - In In Python, comments are denoted by `#`
 
-
 #### 3. Integer 
+
 - In Python, integers are denoted by `int`
 - Integer is a <u>whole number</u>
 - -9, 0, 9, 100000000
 
 #### 4. Float
+
 - Float is a floating point number or any number that has some **decimal place** on it.
 - 32.3, -9.03, 0, 
 
 #### 5. Boolean
+
 - True or False (must be written with capitalised first letter)
 
 <hr>
 
 #### Input statement
+
 - Input statement is something that allows us to ask the user for input.
 - Use a function called `input()`
 - pass `arguments` inside the `()`
 - Input() - pass a String which is known as the **`prompt`**
 - Input always gives a **string**
+
 ```python
 input("Hey, Type your name: ")
 ```
@@ -86,6 +93,7 @@ input("Hey, Type your name: ")
 <hr>
 
 ### Variable
+
 - Variable name must be either `upper/lower case letters`.
 - Can't use any `special characters` other than __underscore__ or __numbers__
 - Numbers in the variable name can only be __after the first character__
@@ -96,16 +104,20 @@ input("Hey, Type your name: ")
 hello_ = 2
 hello2 = "dance"
 ```
+
 <hr>
 
 #### NB:
+
 > String Concatenation is only valid if all are string.
+
 > ```python
 > name = input("Hey type your name: ")
 > print("Hello" +name + "Welcome to my game!")
 >```
 >
 > OR
+> 
 > ```python
 > name = input("Hey type your name: ")
 > print("Hello", name, "Welcome to my game!")
@@ -114,12 +126,14 @@ hello2 = "dance"
 <hr>
 
 ### Condtitional statements
+
 ```python
 if(some condition is equal to true): 
   then do this
 ```
 
 example 1; `if`
+
 ```python
 should_we_play = input("Do you want to play? ")
 
@@ -127,11 +141,12 @@ play = should_we_play == "yes"
 #print(play)
 
 if play:
-    print("We are gonna play!")
+  print("We are gonna play!")
 
 ```
 
 example 2; `if --- else`
+
 ```python
 if should_we_play == "yes":
     print("We are gonna play!")
@@ -140,7 +155,9 @@ else:
 ```
 
 example 3; `if --- elif --- else`
+
 > Only use `elif` after an `if`
+
 ```python
 if should_we_play == "yes":
     print("We are gonna play!")
@@ -163,10 +180,12 @@ else:
 <hr>
 
 ### Operators
+
 - 1 < 2 #True
 - 1 != 2 #True
 - 3 > 5 #False
 - 1 == "1" #False
+
 <h5>Assignment operator (=)</h5>
 
 - "=" known as the Assignment operator
@@ -222,7 +241,9 @@ print(result)
 <hr>
 
 ### Loops
+
 - While loop
+
 ```python
 while condition:
   then this happens
@@ -241,6 +262,7 @@ while i <= 10:
 ```
 
 - Infinite loops
+
 ```python
 # Example 
 i=0
@@ -248,7 +270,9 @@ while True:
   print(i)
   i = i+1
 ```
+
 - **break** : exits the loop
+
 ```python
 # Example 
 i=0
@@ -257,7 +281,9 @@ while True:
   i = i+1
   break
 ```
+
 - **continue** : goes to the top of the loop
+  
 ```python
 # Example 
 i=0
@@ -271,6 +297,7 @@ while True:
 <hr>
 
 ### Functions
+
 - Function is a reusable block of code.
 - Use `def` to create a function
 - `def` stands for `define`
@@ -289,6 +316,7 @@ while True:
 
 
 ## 1. Adventure game
+
 - Ask user for their input
 - Many choices to enter (options for the game)
 - Use the following principles
@@ -297,6 +325,7 @@ while True:
 - let **prior choices** influence **future choices**
 
 ## 2. Text-based Calculator
+
 - `Parse` an expression; `"5 + 7 - 6"`
 - Use the following principles
   - Arithmetic operators
@@ -342,9 +371,10 @@ if valid:
 
 #print(operand, sign, operand2)
 ```
+
 <h6>Option 2</h6>
 
-```python 
+```python
 # Option 2
 #expression = input("Type an expression: ")
 operand = input("Number 1: ")
@@ -381,10 +411,6 @@ except:
 
 ## 3. Contact Management System
 
-
-
 ## 4. Tic Tac Toe (with an AI that can play against us)
-
-
 
 ## 5. Automated Quiz Generator and Grader
